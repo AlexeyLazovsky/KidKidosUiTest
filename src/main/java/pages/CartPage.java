@@ -1,5 +1,6 @@
 package pages;
 
+// test github update
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -40,10 +41,10 @@ public class CartPage extends BasePage {
             e.printStackTrace();
         }
 
-        // Click the update button
+
         updateButton.click();
 
-        // Wait for the cart total element to be visible
+
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@class, 'cart__total')]")));
     }

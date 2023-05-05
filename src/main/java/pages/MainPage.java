@@ -1,5 +1,5 @@
 package pages;
-
+// test github update
 
 import consts.Consts;
 
@@ -38,17 +38,13 @@ public class MainPage extends BasePage {
     }
 
     public void openBooksByLanguageDropdown() {
-        clickElementByCssSelector(BOOKS_BY_LANGUAGE_DROPDOWN);
+        clickElementByXpath("//*[@id='SiteNav']/li[2]/a");
     }
-
-
 
     public BooksResultsPage selectEnglishOnlyOption() {
-        // ...
-
-        // Return the BooksResultsPage instance, passing the WebDriver instance
+        openBooksByLanguageDropdown();
+        clickElementByXpath("//*[@id='SiteNavLabel-books-by-language']/ul/li[10]/a");
         return new BooksResultsPage(webDriver);
     }
-
 
 }

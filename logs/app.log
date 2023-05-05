@@ -438,3 +438,14 @@
 2023-05-04 22:03:06 INFO  BasePage:30 - Clicking element with xpath //*[@id='AddToCartText-product-template']
 2023-05-05 01:53:24 INFO  BasePage:30 - Clicking element with xpath //*[@id='Collection']/div/div[1]/div/a/div[1]
 2023-05-05 02:06:38 INFO  BasePage:30 - Clicking element with xpath //*[@id='Collection']/div/div[1]/div/a/div[1]
+2023-05-05 02:40:57 INFO  BasePage:30 - Clicking element with xpath //*[@id='Collection']/div/div[1]/div/a/div[1]
+2023-05-05 02:58:27 INFO  BasePage:30 - Clicking element with xpath //*[@id='SiteNav']/li[2]/a
+2023-05-05 02:58:27 INFO  BasePage:30 - Clicking element with xpath //*[@id='SiteNavLabel-books-by-language']/ul/li[10]/a
+2023-05-05 02:58:29 INFO  BasePage:30 - Clicking element with xpath //*[@id='Collection']/div/div[1]/div/a/div[1]
+2023-05-05 02:58:30 INFO  BasePage:30 - Clicking element with xpath //*[@id='SingleOptionSelector-0']
+2023-05-05 02:58:30 INFO  BasePage:30 - Clicking element with xpath //*[@id='SingleOptionSelector-0']/option[2]
+2023-05-05 02:58:30 INFO  BasePage:30 - Clicking element with xpath //*[@id='AddToCartText-product-template']
+2023-05-05 02:58:58 INFO  BasePage:30 - Clicking element with xpath //*[@id='SiteNav']/li[2]/a
+2023-05-05 02:58:58 INFO  BasePage:30 - Clicking element with xpath //*[@id='SiteNavLabel-books-by-language']/ul/li[10]/a
+2023-05-05 02:59:00 INFO  BasePage:30 - Clicking element with xpath //*[@id='Collection']/div/div[1]/div/a/div[1]
+2023-05-05 02:59:01 INFO  BasePage:43 - Check element with xpath exist //div[contains(@class, 'product-single')]
